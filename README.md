@@ -8,8 +8,12 @@ Each URL maps to `output/path/to/page/index.md`, mirroring the site's structure 
 ```bash
 git clone https://github.com/khangtoh/md_sync_url.git
 cd md_sync_url
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -e .
 ```
+
+> On Windows use `.venv\Scripts\activate` instead.
 
 ## Usage
 
